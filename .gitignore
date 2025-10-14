@@ -1,0 +1,11 @@
+# Large data and model files
+models_v2/
+to_be_evaded_ds/
+modified_samples/
+
+# Result files
+*.json
+
+# Binary and archive files
+*.tar
+*.exe
