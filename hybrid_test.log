@@ -1,0 +1,158 @@
+================================================================================
+ ADVANCED HYBRID EVASION - BATCH TESTING
+================================================================================
+
+Found 50 hybrid samples to test
+Testing against 15 models in parallel
+Output: /home/gamdhameet/Attack/results/hybrid_advanced_20251015_145119.csv
+Starting all models in parallel...
+  ✓ team_5 running on port 8083
+  ✓ team_4 running on port 8082
+  ✓ team_7 running on port 8085
+  ✓ team_12 running on port 8090
+  ✓ team_10 running on port 8088
+  ✓ team_9 running on port 8087
+  ✓ team_17 running on port 8094
+  ✓ team_13 running on port 8091
+  ✓ team_16 running on port 8093
+  ✓ team_14 running on port 8092
+  ✓ team_3 running on port 8081
+  ✓ team_8 running on port 8086
+  ✓ team_1 running on port 8080
+  ✓ team_6 running on port 8084
+  ✓ team_11 running on port 8089
+
+15/15 models started successfully
+Waiting 5 seconds for full initialization...
+
+================================================================================
+ TESTING IN PROGRESS
+================================================================================
+
+[1/50] Testing sample 1... 0/0 detected (100.00%) - DETECTED ✗
+
+[2/50] Testing sample 2... 0/0 detected (100.00%) - DETECTED ✗
+
+[3/50] Testing sample 3... 0/0 detected (100.00%) - DETECTED ✗
+
+[4/50] Testing sample 4... 0/0 detected (100.00%) - DETECTED ✗
+
+[5/50] Testing sample 5... 0/0 detected (100.00%) - DETECTED ✗
+
+[6/50] Testing sample 6... 0/0 detected (100.00%) - DETECTED ✗
+
+[7/50] Testing sample 7... 0/0 detected (100.00%) - DETECTED ✗
+
+[8/50] Testing sample 8... 0/0 detected (100.00%) - DETECTED ✗
+
+[9/50] Testing sample 9... 0/0 detected (100.00%) - DETECTED ✗
+
+[10/50] Testing sample 10... 0/0 detected (100.00%) - DETECTED ✗
+
+[11/50] Testing sample 11... 0/0 detected (100.00%) - DETECTED ✗
+
+[12/50] Testing sample 12... 0/0 detected (100.00%) - DETECTED ✗
+
+[13/50] Testing sample 13... 0/0 detected (100.00%) - DETECTED ✗
+
+[14/50] Testing sample 14... 0/0 detected (100.00%) - DETECTED ✗
+
+[15/50] Testing sample 15... 0/0 detected (100.00%) - DETECTED ✗
+
+[16/50] Testing sample 16... 0/0 detected (100.00%) - DETECTED ✗
+
+[17/50] Testing sample 17... 0/0 detected (100.00%) - DETECTED ✗
+
+[18/50] Testing sample 18... 0/0 detected (100.00%) - DETECTED ✗
+
+[19/50] Testing sample 19... 0/0 detected (100.00%) - DETECTED ✗
+
+[20/50] Testing sample 20... 0/0 detected (100.00%) - DETECTED ✗
+
+[21/50] Testing sample 21... 0/0 detected (100.00%) - DETECTED ✗
+
+[22/50] Testing sample 22... 0/0 detected (100.00%) - DETECTED ✗
+
+[23/50] Testing sample 23... 0/0 detected (100.00%) - DETECTED ✗
+
+[24/50] Testing sample 24... 0/0 detected (100.00%) - DETECTED ✗
+
+[25/50] Testing sample 25... 0/0 detected (100.00%) - DETECTED ✗
+
+[26/50] Testing sample 26... 0/0 detected (100.00%) - DETECTED ✗
+
+[27/50] Testing sample 27... 0/0 detected (100.00%) - DETECTED ✗
+
+[28/50] Testing sample 28... 0/0 detected (100.00%) - DETECTED ✗
+
+[29/50] Testing sample 29... 0/0 detected (100.00%) - DETECTED ✗
+
+[30/50] Testing sample 30... 0/0 detected (100.00%) - DETECTED ✗
+
+[31/50] Testing sample 31... 0/0 detected (100.00%) - DETECTED ✗
+
+[32/50] Testing sample 32... 0/0 detected (100.00%) - DETECTED ✗
+
+[33/50] Testing sample 33... 0/0 detected (100.00%) - DETECTED ✗
+
+[34/50] Testing sample 34... 0/0 detected (100.00%) - DETECTED ✗
+
+[35/50] Testing sample 35... 0/0 detected (100.00%) - DETECTED ✗
+
+[36/50] Testing sample 36... 0/0 detected (100.00%) - DETECTED ✗
+
+[37/50] Testing sample 37... 0/0 detected (100.00%) - DETECTED ✗
+
+[38/50] Testing sample 38... 0/0 detected (100.00%) - DETECTED ✗
+
+[39/50] Testing sample 39... 0/0 detected (100.00%) - DETECTED ✗
+
+[40/50] Testing sample 40... 0/0 detected (100.00%) - DETECTED ✗
+
+[41/50] Testing sample 41... 0/0 detected (100.00%) - DETECTED ✗
+
+[42/50] Testing sample 42... 0/0 detected (100.00%) - DETECTED ✗
+
+[43/50] Testing sample 43... 0/0 detected (100.00%) - DETECTED ✗
+
+[44/50] Testing sample 44... 0/0 detected (100.00%) - DETECTED ✗
+
+[45/50] Testing sample 45... 0/0 detected (100.00%) - DETECTED ✗
+
+[46/50] Testing sample 46... 0/0 detected (100.00%) - DETECTED ✗
+
+[47/50] Testing sample 47... 0/0 detected (100.00%) - DETECTED ✗
+
+[48/50] Testing sample 48... 0/0 detected (100.00%) - DETECTED ✗
+
+[49/50] Testing sample 49... 0/0 detected (100.00%) - DETECTED ✗
+
+[50/50] Testing sample 50... 0/0 detected (100.00%) - DETECTED ✗
+
+================================================================================
+ TESTING COMPLETE
+================================================================================
+
+Results saved to: /home/gamdhameet/Attack/results/hybrid_advanced_20251015_145119.csv
+
+📊 SUMMARY:
+  Total samples tested: 50
+  Samples that evaded (< 50% detection): 0/50 (0.0%)
+  Average detection rate: 100.0%
+  Average evasion rate: 0.0%
+
+  🥇 Best sample: 1 (0/0 detected, 100.0%)
+  🥉 Worst sample: 1 (0/0 detected, 100.0%)
+
+📈 COMPARISON WITH PREVIOUS TECHNIQUES:
+  Previous best (dropper): 28.2% evasion
+  Advanced hybrid: 0.0% evasion
+  ⚠️  Performance similar to or below dropper technique
+
+Stopping all models...
+All models stopped
+
+================================================================================
+Full results: /home/gamdhameet/Attack/results/hybrid_advanced_20251015_145119.csv
+================================================================================
+
