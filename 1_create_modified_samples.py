@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from evasion_tools import append_data, pe_header_modify, packer, dropper, mimicry, dead_code, encoder
+from evasion_tools import append_data, pe_header_modify, dropper, mimicry, dead_code, encoder
 
 MALWARE_DIR = Path("/home/gamdhameet/Attack/to_be_evaded_ds")
 MODIFIED_BASE = Path("/home/gamdhameet/Attack/modified_samples")
@@ -49,16 +49,7 @@ def create_all_modified_samples():
         except Exception as e:
             print(f"  ✗ pe_header failed: {e}")
         
-        # Technique 3: Packer
-        try:
-            output = MODIFIED_BASE / "packer" / f"{sample_id}.exe"
-            result = packer.apply_upx_packer(str(sample_path), str(output))
-            if result.get('success'):
-                print(f"  ✓ packer/{sample_id}.exe")
-            else:
-                print(f"  ✗ packer failed: {result.get('error', 'Unknown')}")
-        except Exception as e:
-            print(f"  ✗ packer failed: {e}")
+
         
         # Technique 4: Dropper
         try:
@@ -96,22 +87,7 @@ def create_all_modified_samples():
         except Exception as e:
             print(f"  ✗ xor_encoding failed: {e}")
         
-        # Technique 8: Combined (append + pe_header + dead_code)
-        try:
-            temp1 = MODIFIED_BASE / f"temp1_{sample_id}.exe"
-            temp2 = MODIFIED_BASE / f"temp2_{sample_id}.exe"
-            output = MODIFIED_BASE / "combined" / f"{sample_id}.exe"
-            
-            append_data.append_random_bytes(str(sample_path), str(temp1), size_kb=30)
-            pe_header_modify.apply_light_modifications(str(temp1), str(temp2))
-            dead_code.insert_junk_data(str(temp2), str(output), junk_size_kb=15)
-            
-            temp1.unlink(missing_ok=True)
-            temp2.unlink(missing_ok=True)
-            
-            print(f"  ✓ combined/{sample_id}.exe")
-        except Exception as e:
-            print(f"  ✗ combined failed: {e}")
+
     
     print("\n" + "=" * 70)
     print("Modified sample creation complete!")
