@@ -1,11 +1,23 @@
-# Large data and model files
-models_v2/
-to_be_evaded_ds/
-modified_samples/
-
-# Result files
-*.json
-
-# Binary and archive files
-*.tar
+# Executables
 *.exe
+*.so
+*.dll
+
+# Models
+*.tar
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Data
+modified_samples/
+results/
+*.json
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
